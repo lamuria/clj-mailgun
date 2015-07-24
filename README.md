@@ -6,7 +6,7 @@ Usage
 -----
 Here's how to send a message using the library:
 
-```
+```clojure
 defn example-of-send-email
   []
   (let [credentials {:api-key "YOUR_API_KEY" :domain "YOUR_DOMAIN"}
