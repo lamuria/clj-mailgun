@@ -14,6 +14,18 @@ Here's how to send a message using the library:
         params {:from "FROM_EMAIL" :to "TO_EMAIL" :subject "YOUR_SUBJECT" :text "YOUR_TEXT"}]
     (mailgun/send-email credentials params)))
 ```
+
+Here's how to validate emails using the library:
+
+```clojure
+
+(defn example-of-validate-email
+  []
+  (let [credentials {:api-key "YOUR_API_KEY"}
+        email "bubu@gmail.com"]
+    (mailgun/validate-email credentials email)))
+```
+
 ## License
 
 Copyright © 2015 FIXME
