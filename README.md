@@ -1,11 +1,19 @@
 # clj-mailgun
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure Wrapper to Mailgun API.
 
-## Usage
+Usage
+-----
+Here's how to send a message using the library:
 
-FIXME
+```clojure
 
+(defn example-of-send-email
+  []
+  (let [credentials {:api-key "YOUR_API_KEY" :domain "YOUR_DOMAIN"}
+        params {:from "FROM_EMAIL" :to "TO_EMAIL" :subject "YOUR_SUBJECT" :text "YOUR_TEXT"}]
+    (mailgun/send-email credentials params)))
+```
 ## License
 
 Copyright © 2015 FIXME
