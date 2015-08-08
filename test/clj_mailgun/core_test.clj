@@ -7,7 +7,7 @@
 
 (def input-params
   {:from "Excited User <excited@samples.mailgun.org>"
-   :to "zemanel@gmail.com"
+   :to "zemanel.enterprises@gmail.com"
    :subject "this is a subject"
    :text "this is a email body"})
 
