@@ -1,4 +1,5 @@
 # Clj Mailgun [![Build Status](https://travis-ci.org/lamuria/clj-mailgun.svg?branch=master)](https://travis-ci.org/lamuria/clj-mailgun)
+[![Clojars Project](http://clojars.org/clj-mailgun/latest-version.svg)](http://clojars.org/clj-mailgun)
 
 A Clojure Wrapper to Mailgun API.
 
