@@ -1,4 +1,4 @@
-(defproject clj-mailgun "0.1.0-SNAPSHOT"
+(defproject clj-mailgun "0.2.0"
   :description "Clojure Wrapper to Mailgun API"
   :url "https://github.com/lamuria/clj-mailgun"
   :license {:name "Eclipse Public License"
