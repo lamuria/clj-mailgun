@@ -3,8 +3,34 @@
 
 A Clojure Wrapper to Mailgun API.
 
+Installation
+-----
+
+```clj-mailgun``` is available as a Maven artifact from [Clojars](http://clojars.org/clj-mailgun)
+
+With Leiningen/Boot:
+
+```clojure
+[clj-mailgun "0.2.0"]
+```
+
 Usage
 -----
+The functionalities are provided by the ```clj-maigun.core``` namespace.
+
+First, require it in the REPL:
+
+```clojure
+(require '[clj-mailgun.core :as mailgun])
+```
+
+Or in your application:
+
+```clojure
+(ns my-app.core
+  (:require [clj-mailgun.core :as mailgun]))
+```
+
 Here's how to send a message using the library:
 
 ```clojure
