@@ -16,7 +16,7 @@ With Leiningen/Boot:
 
 Usage
 -----
-The functionalities are provided by the ```clj-maigun.core``` namespace.
+The functionalities are provided by the ```clj-mailgun.core``` namespace.
 
 First, require it in the REPL:
 
